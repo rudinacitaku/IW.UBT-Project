@@ -1,0 +1,29 @@
+body {
+  font-family: "Droid Serif", serif;
+  font-size: 14px;
+  color: #2f2f2f;
+  background-color: #e1e6e1;
+}
+h1 {
+  color: #874c41;
+  font-size: 40px;
+}
+h2 {
+  color: #874c41;
+}
+.AboutUs {
+  font-family: "Playfair Display", serif;
+  max-width: 880px;
+}
+h3 {
+  color: #3f826d;
+  font-weight: 300px;
+}
+.Butoni {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}

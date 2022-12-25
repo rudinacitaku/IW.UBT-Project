@@ -1,0 +1,66 @@
+/* .bg-img {
+  background-image: url(./ab-us-main-pic.jpg);
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 100%;
+  max-height: 100%;
+} */
+body {
+  font-family: "Droid Serif", serif;
+  font-size: 14px;
+  color: #2f2f2f;
+  background-color: #e1e6e1;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.body-grider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.body-grider img {
+  width: 220px;
+  height: 220px;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 40px;
+  color: #874c41;
+}
+h3 {
+  color: #3f826d;
+}
+
+.iconi {
+  max-width: 35px;
+  max-height: 35px;
+  align-items: right;
+  border: solid 1px white;
+  padding: 10px;
+  border-radius: 35px;
+  background-color: #3f826d;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.d-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ar {
+  border: solid 1px brown;
+  background-color: #95ab94;
+  padding-top: 30px;
+}
+p {
+  max-width: 212px;
+}
+h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
