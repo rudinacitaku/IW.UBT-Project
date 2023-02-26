@@ -1,0 +1,255 @@
+body {
+  font-family: "Droid Serif", serif;
+  font-size: 14px;
+  color: #2f2f2f;
+  background-color: #e1e6e1;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 40px;
+  color: #874c41;
+}
+h3 {
+  color: #3f826d;
+}
+.border {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer {
+  background-color: #3f826d;
+}
+.headery {
+  border-bottom: 1px solid saddlebrown;
+}
+.headery ul {
+  list-style-type: none;
+}
+
+.headery ul li {
+  display: inline;
+  padding: 1%;
+}
+.text-center {
+  text-align: center;
+}
+.headery ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3f826d;
+}
+.headery ul li a:hover {
+  color: rgb(56, 92, 80);
+}
+.main-content {
+  margin: 1% 0;
+  padding: 3% 0;
+}
+.col-4 {
+  width: 18%;
+  background-color: rgb(168, 157, 143);
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+.tbl-full {
+  width: 100%;
+}
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td {
+  padding: 1%;
+}
+.btn-primary {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: #235143;
+}
+.btn-secondary {
+  border: solid 1px #e2725b;
+  background-color: #e2725b;
+  padding: 1px;
+  color: #1f201f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: #af5340;
+}
+.btn-third {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-third:hover {
+  background-color: #1e3009;
+}
+
+body {
+  font-family: "Droid Serif", serif;
+  font-size: 14px;
+  color: #2f2f2f;
+  background-color: #e1e6e1;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  color: #874c41;
+}
+
+header {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 80px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.head img {
+  width: 220px;
+  height: 220px;
+}
+.collumn img {
+  width: 220px;
+  height: 220px;
+}
+.collumn2 img {
+  width: 220px;
+  height: 220px;
+}
+.collumn3 img {
+  width: 220px;
+  height: 220px;
+}
+.collumn4 img {
+  width: 220px;
+  height: 220px;
+}
+/* .collumn {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s;
+}
+.collumn2 {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s;
+}
+.collumn3 {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s;
+}
+.collumn4 {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s;
+}
+.collumn5 {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s; */
+
+/* .head {
+  font-size: 14px;
+  line-height: 20px;
+  width: 17.5%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all 0.7s;
+} */
+.grid-collumn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.sign-up-btn {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}
+.abtus-btn {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}
+.ctc-btn {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}
+.login-btn {
+  border: solid 1px #3f826d;
+  background-color: #3f826d;
+  padding: 10px;
+  border-radius: 15px;
+  color: #e2725b;
+  text-decoration: none;
+}
+h3 {
+  color: #3f826d;
+}
